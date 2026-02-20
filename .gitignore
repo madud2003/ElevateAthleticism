@@ -1,4 +1,18 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+node_modules/
+.next/
+.env
+.env.*
+dist/
+build/
+coverage/
+npm-debug.log*
+yarn-error.log*
+.DS_Store
+.vscode/
+.idea/
+*.log
+/.turbo
+/.parcel-cache# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
 /node_modules
@@ -39,3 +53,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# clerk configuration (can include secrets)
+/.clerk/
+
+node_modules.zip
